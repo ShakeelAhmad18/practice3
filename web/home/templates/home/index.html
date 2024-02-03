@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home page</title>
+        <link rel="stylesheet" href="{% static 'home/style.css' %}">
+    </head>
+    <body>
+        <h1>Sign In</h1>
+        <form>
+            {{ forms }}
+            <input type="submit">
+        </form>
+    </body>
+</html>
